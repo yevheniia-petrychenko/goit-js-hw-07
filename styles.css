@@ -1,0 +1,13 @@
+#gallery {
+  width: 1300px;
+  display: flex;
+}
+#gallery li {
+  list-style: none;
+}
+#gallery li:not(:last-child) {
+  margin-right: 20px;
+}
+img {
+  width: 250px;
+}
