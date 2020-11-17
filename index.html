@@ -51,10 +51,32 @@
 
     <input type="text" placeholder="Ваше имя?" id="name-input" />
     <h1>Привет, <span id="name-output">незнакомец</span>!</h1>
-    <!-- <script src="./task-1.js" type="module"></script> -->
-    <!-- <script src="./task-2.js" type="module"></script> -->
-    <!-- <script src="./task-3.js" type="module"></script> -->
-    <!-- <script src="./task-4.js" type="module"></script> -->
-    <script src="./task-5.js"></script>
+
+    <input
+      type="text"
+      id="validation-input"
+      data-length="6"
+      placeholder="Введи 6 символов"
+    />
+
+    <input id="font-size-control" type="range" onchange="render(this.value)" />
+    <br />
+    <span id="text">Абракадабра!</span>
+
+    <div id="controls">
+      <input type="number" class="number" min="0" max="100" step="1" />
+      <button type="button" data-action="render">Создать</button>
+      <button type="button" data-action="destroy">Очистить</button>
+    </div>
+
+    <div id="boxes"></div>
+    <script src="./task-1.js" type="module"></script>
+    <script src="./task-2.js" type="module"></script>
+    <script src="./task-3.js" type="module"></script>
+    <script src="./task-4.js" type="module"></script>
+    <script src="./task-5.js" type="module"></script>
+    <script src="./task-6.js" type="module"></script>
+    <script src="./task-7.js" type="module"></script>
+    <script src="./task-8.js" type="module"></script>
   </body>
 </html>
