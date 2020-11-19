@@ -7,9 +7,4 @@ function render() {
   spanRef.style.fontSize = `${value}px`;
 }
 
-inputRange.addEventListener("change", render);
-
-// inputRange.onchange = function () {
-//   value = this.value;
-//   spanRef.style.fontSize = `${value}px`;
-// };
+inputRange.addEventListener("change", render());
